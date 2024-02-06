@@ -3,7 +3,7 @@
   <div class="card-login">
     <div
       class="card-header bg-usco-vt header-usco-card"
-      style="background-color: #edeff0"
+      style="background-color: #effaff"
     >
       <div class="row">
         <div class="col text-center">
@@ -13,7 +13,7 @@
       <hr class="punteada" />
       <div class="row">
         <div class="col">
-          <h6 class="font-weight-bold">
+          <h6 class="font-weight-bold" style="color: #42468c;">
             ¡Bienvenido al Sistema de Votación Electrónica!
           </h6>
         </div>
@@ -27,7 +27,7 @@
               <p>
                 Damos la bienvenida al inicio del proceso electoral. <br />
                 Por favor, suministre la clave de acceso para dar apertura al
-                sistema electoral:
+                sistema electoral
               </p>
             </div>
           </div>
@@ -38,7 +38,7 @@
                   <span matPrefix class="p-3"
                     ><i class="fa-solid fa-lock"></i
                   ></span>
-                  <mat-label>Código de verificación</mat-label>
+                  <mat-label>Clave de acceso</mat-label>
                   <input matInput formControlName="token" autocomplete="off" />
                 </mat-form-field>
               </div>
@@ -46,8 +46,8 @@
           </form>
           <div class="row">
             <div class="col mb-2">
-              <button type="button" class="btn btn-secondary">
-                Validar Token
+              <button type="button" class="btn btn-info">
+                Validar
                 <span
                   class="spinner-border spinner-border-sm"
                   role="status"
